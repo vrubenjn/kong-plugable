@@ -1,10 +1,10 @@
 # Kong-Plugable
 
-Is a Kong official image's based that add a wait for a postgres to start and run migrations setup and also use ```KOKG_PLUGINS``` environment variable to install lua rocks avaliable on [http://luarocks.org]
+Is a Kong official image's based that add a wait for a postgres to start and run migrations setup and also use ```KOKG_PLUGINS``` environment variable to install lua rocks avaliable on [ http://luarocks.org ]
 
-For instructions about base image go to [https://hub.docker.com/_/kong]
+For instructions about base image go to [ https://hub.docker.com/_/kong ]
 
-For example you can use a plugin developed for kong ```oauth2-acl``` avaliable on [https://luarocks.org/modules/vrubenjn/oauth2-acl] by just setting ```KOKG_PLUGINS=bundled,oauth2-acl```. The image on first run runs ```luarocks install oauth2-acl``` to make plugin avaliable for Kong.
+For example you can use a plugin developed for kong ```oauth2-acl``` avaliable on [ https://luarocks.org/modules/vrubenjn/oauth2-acl ] by just setting ```KOKG_PLUGINS=bundled,oauth2-acl```. The image on first run runs ```luarocks install oauth2-acl``` to make plugin avaliable for Kong.
 
 See next example for details.
 
